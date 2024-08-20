@@ -76,5 +76,42 @@ a:hover {
 }
 
 .socials a:hover {
-  background-color: hsl(0, 0%, 25%);
+  color: black;
+  background-color: yellowgreen;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  img {
+    width: 50px;
+  }
+
+  .card {
+    width: 350px;
+  }
+
+  .socials a {
+    width: 150%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 10px;
+  }
+
+  img {
+    width: 40px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .socials a {
+    width: 200%;
+  }
 }
